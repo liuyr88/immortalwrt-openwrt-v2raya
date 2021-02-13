@@ -29,10 +29,10 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git
 mv luci-app-vssr/ package/
 mv lua-maxminddb/ package/
 #jd
-git clone https://github.com/jerrykuku/node-request.git
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git  
-mv node-request/ package/
-mv luci-app-jd-dailybonus/ package/
+#git clone https://github.com/jerrykuku/node-request.git
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git  
+#mv node-request/ package/
+#mv luci-app-jd-dailybonus/ package/
 #luci-app-ipsec-vpnserver
 #rm -rf feeds/lienol/lienol/luci-app-ipsec-vpnserver-manyusers
 #git clone https://github.com/xiaoqingfengATGH/feeds-lienol
