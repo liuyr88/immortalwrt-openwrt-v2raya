@@ -20,8 +20,8 @@ on:
         default: 'false'
 #  schedule:
 #    - cron: 0 18 * * 5
-  watch:
-    types: started
+#  watch:
+#    types: started
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
