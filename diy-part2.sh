@@ -14,10 +14,10 @@
 sed -i 's/192.168.1.1/192.168.50.254/g' package/base-files/files/bin/config_generate
 
 #vssr
-#git clone https://github.com/jerrykuku/lua-maxminddb.git 
-#git clone https://github.com/jerrykuku/luci-app-vssr.git 
-#mv luci-app-vssr/ package/
-#mv lua-maxminddb/ package/
+git clone https://github.com/jerrykuku/lua-maxminddb.git 
+git clone https://github.com/jerrykuku/luci-app-vssr.git 
+mv luci-app-vssr/ package/
+mv lua-maxminddb/ package/
 
 
 # Add luci-app-ssr-plus
@@ -26,8 +26,8 @@ sed -i 's/192.168.1.1/192.168.50.254/g' package/base-files/files/bin/config_gene
 #popd
 
 # Clone community packages to package/community
-#mkdir package/community
-#pushd package/community
+mkdir package/community
+pushd package/community
 
 # Add OpenClash
 #git clone --depth=1 -b master https://github.com/vernesong/OpenClash
@@ -43,8 +43,8 @@ sed -i 's/192.168.1.1/192.168.50.254/g' package/base-files/files/bin/config_gene
 
 
 # Add smartdns
-#svn co https://github.com/pymumu/smartdns/trunk/package/openwrt ../smartdns
-#svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns ../luci-app-smartdns
+svn co https://github.com/pymumu/smartdns/trunk/package/openwrt ../smartdns
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/luci-app-smartdns ../luci-app-smartdns
 
-#popd
+popd
 
