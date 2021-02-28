@@ -38,8 +38,8 @@ pushd package/community
 #svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome
 
 # Add luci-app-jd-dailybonus
-#git clone --depth=1 https://github.com/jerrykuku/node-request
-#git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
+git clone --depth=1 https://github.com/jerrykuku/node-request
+git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
 
 
 # Add smartdns
