@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: x86-64-lienol-pass
+name: lienol-pass-ssr-vssr-ros
 
 on:
   repository_dispatch:
@@ -18,8 +18,8 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-#  schedule:
-#    - cron: 0 18 * * 5
+  schedule:
+    - cron: 0 18 * * 1,3,5
   watch:
     types: started
 
