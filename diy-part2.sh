@@ -30,7 +30,7 @@ mkdir package/community
 pushd package/community
 
 # Add OpenClash
-#git clone --depth=1 -b master https://github.com/vernesong/OpenClash
+git clone --depth=1 -b master https://github.com/vernesong/OpenClash
 
 
 # Add luci-app-adguardhome
