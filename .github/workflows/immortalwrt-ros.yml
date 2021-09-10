@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: immortalwrt-pass-vssr-ros
+name: immortalwrt-ros
 
 on:
   repository_dispatch:
