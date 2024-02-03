@@ -7,3 +7,4 @@ src-git telephony https://github.com/openwrt/telephony.git
 #src-git-full oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 #src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+src-git v2raya https://github.com/v2rayA/v2raya-openwrt.git
