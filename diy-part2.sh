@@ -19,5 +19,3 @@ sed -i 's/192.168.1.1/192.168.50.3/g' package/base-files/files/bin/config_genera
 #mosdns
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-#make menuconfig 
-make package/mosdns/luci-app-mosdns/compile V=s
