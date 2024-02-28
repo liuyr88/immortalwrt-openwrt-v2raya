@@ -1,4 +1,4 @@
-#20200228-imm-passwall+v2raya+alist+vlmcsd
+#20200228-imm-passwall+v2raya+alist+vlmcsd+mosdns
 src-git packages https://github.com/immortalwrt/packages.git
 src-git luci https://github.com/immortalwrt/luci.git
 src-git routing https://github.com/openwrt/routing.git
