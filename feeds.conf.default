@@ -8,4 +8,5 @@ src-git telephony https://github.com/openwrt/telephony.git
 #src-git-full oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 #src-git v2raya https://github.com/v2rayA/v2raya-openwrt.git
-
+src-git mosdns https://github.com/sbwml/luci-app-mosdns -b v5
+src-git geodata https://github.com/sbwml/v2ray-geodata
