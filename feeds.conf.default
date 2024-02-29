@@ -8,4 +8,3 @@ src-git telephony https://github.com/openwrt/telephony.git
 #src-git-full oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 
-
