@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: imm-ros-passwall-v2rayA
+name: imm-ros-passwall-openclae
 
 on:
   repository_dispatch:
