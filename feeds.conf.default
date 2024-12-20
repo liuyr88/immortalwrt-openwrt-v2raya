@@ -1,4 +1,4 @@
-#20241211    immk enzok8/small-package   passwall+openclra+ssr+mihomo+mosdna
+#20241220    immk NueXini   passwall+openclra+ssr+mihomo+mosdns
 src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git
 src-git packages https://github.com/immortalwrt/packages.git;openwrt-23.05
 src-git luci https://github.com/immortalwrt/luci.git;openwrt-23.05
