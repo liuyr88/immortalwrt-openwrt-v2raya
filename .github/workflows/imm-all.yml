@@ -93,7 +93,7 @@ jobs:
       run: cd openwrt && rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/{alist,adguardhome,smartdns}
 
     - name:  自定义2
-      run: cd openwrt && rm -rf feeds/packages/lang/golang && git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+      run: cd openwrt && rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb} && git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
     - name:  删除原mosdns
       run: cd openwrt && rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/v2ray-geodata
