@@ -1,8 +1,9 @@
-#20241224    immk kenzo    passwall+openclra+ssr+mihomo+mosdns+AG
-#src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git
+#20241231    immk NueXini   passwall+ssr+mihomo+mosdns+lucky+WG
+src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git
+src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main
+src-git lucky https://github.com/gdy666/luci-app-lucky.git
+#src-git kenzo https://github.com/kenzok8/small-package.git
 src-git packages https://github.com/immortalwrt/packages.git;openwrt-23.05
 src-git luci https://github.com/immortalwrt/luci.git;openwrt-23.05
 src-git routing https://github.com/openwrt/routing.git;openwrt-23.05
 src-git telephony https://github.com/openwrt/telephony.git;openwrt-23.05
-#src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main
-src-git kenzo https://github.com/kenzok8/small-package.git
