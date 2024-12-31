@@ -86,10 +86,22 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
-    - name: Update feeds
+    - name:  更新源 #Update feeds
       run: cd openwrt && ./scripts/feeds update -a
+      
+    - name:  自定义1
+      run: cd openwrt && rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/{alist,adguardhome,smartdns}
 
-    - name: Install feeds
+    - name:  自定义2
+      run: cd openwrt && rm -rf feeds/packages/lang/golang && git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+
+    - name:  删除原mosdns
+      run: cd openwrt && rm -rf feeds/luci/applications/luci-app-mosdns && rm -rf feeds/packages/net/v2ray-geodata
+
+    - name:  自定义mosdns
+      run: cd openwrt && git clone https://github.com/sbwml/luci-app-mosdns -b v5-lua package/mosdns && git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata     
+        
+    - name: 安装源 #Install feeds
       run: cd openwrt && ./scripts/feeds install -a
 
     - name: Load custom configuration
