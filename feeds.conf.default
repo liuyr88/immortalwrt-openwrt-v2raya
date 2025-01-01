@@ -1,4 +1,4 @@
-#20241231    immk kenzo   passwall+ssr+mihomo+mosdns+lucky+WG
+#20241231    immk  NueXini   passwall+ssr+mihomo+mosdns+lucky+WG
 #src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages.git
 #src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main
 #src-git lucky https://github.com/gdy666/luci-app-lucky.git
