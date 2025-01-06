@@ -18,10 +18,10 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-  schedule:
-    - cron: 0 18 * * 5
-  watch:
-    types: started
+  #schedule:
+  #  - cron: 0 18 * * 5
+ # watch:
+    #types: started
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
