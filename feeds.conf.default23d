@@ -1,1 +1,8 @@
-
+# 20250112 passwall+ssr+mihome+openclas+msdns+vlmcsd+lucky+argon+diskman+docker
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
+#src-git smpackage https://github.com/kenzok8/small-package
+src-git packages https://github.com/immortalwrt/packages.git;openwrt-23.05
+src-git luci https://github.com/immortalwrt/luci.git;openwrt-23.05
+src-git routing https://github.com/openwrt/routing.git;openwrt-23.05
+src-git telephony https://github.com/openwrt/telephony.git;openwrt-23.05
